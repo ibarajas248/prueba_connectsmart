@@ -53,7 +53,12 @@ def mostrar_estadisticas():
             # Opciones adicionales de filtrado
             st.subheader("Filtrar datos adicionales")
             columnas = df.columns.tolist()
+
+
+
             columna_seleccionada = st.selectbox("Selecciona una columna para filtrar", columnas)
+
+
             if columna_seleccionada:
                 unique_values = df[columna_seleccionada].unique().tolist()
                 valores_seleccionados = st.multiselect(f"Selecciona valores de {columna_seleccionada}", unique_values)
