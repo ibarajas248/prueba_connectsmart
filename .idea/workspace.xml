@@ -4,18 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df33a56-2b6b-4443-885b-a171c61907c1" name="Changes" comment="inicial4">
-      <change afterPath="$PROJECT_DIR$/streamlit/config.toml" afterDir="false" />
+    <list default="true" id="2df33a56-2b6b-4443-885b-a171c61907c1" name="Changes" comment="jabhdad">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pagina1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagina3.py" beforeDir="false" afterPath="$PROJECT_DIR$/pagina3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -123,7 +131,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731593074968</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="inicial4">
+      <option name="closed" value="true" />
+      <created>1731594986029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731594986029</updated>
+    </task>
+    <task id="LOCAL-00006" summary="inicial5">
+      <option name="closed" value="true" />
+      <created>1731595120801</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731595120801</updated>
+    </task>
+    <task id="LOCAL-00007" summary="jabhdad">
+      <option name="closed" value="true" />
+      <created>1731606283924</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731606283924</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +163,8 @@
     <MESSAGE value="inicial2" />
     <MESSAGE value="inicial3" />
     <MESSAGE value="inicial4" />
-    <option name="LAST_COMMIT_MESSAGE" value="inicial4" />
+    <MESSAGE value="inicial5" />
+    <MESSAGE value="jabhdad" />
+    <option name="LAST_COMMIT_MESSAGE" value="jabhdad" />
   </component>
 </project>
