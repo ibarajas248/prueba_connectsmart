@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df33a56-2b6b-4443-885b-a171c61907c1" name="Changes" comment="jabhdad">
-      <change afterPath="$PROJECT_DIR$/pagina5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pagina2.py" afterDir="false" />
+    <list default="true" id="2df33a56-2b6b-4443-885b-a171c61907c1" name="Changes" comment="mapa">
+      <change afterPath="$PROJECT_DIR$/data/emis_construccion.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +45,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/David/PycharmProjects/hackatonb2b&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/David/PycharmProjects/hackatonb2b/data"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\David\PycharmProjects\hackatonb2b\data" />
       <recent name="C:\Users\David\PycharmProjects\hackatonb2b" />
       <recent name="C:\Users\David\PycharmProjects\hackatonb2b\.venv" />
     </key>
@@ -163,7 +163,39 @@
       <option name="project" value="LOCAL" />
       <updated>1731612943761</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="mapa">
+      <option name="closed" value="true" />
+      <created>1731614770551</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731614770551</updated>
+    </task>
+    <task id="LOCAL-00010" summary="mapa">
+      <option name="closed" value="true" />
+      <created>1731614959078</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731614959078</updated>
+    </task>
+    <task id="LOCAL-00011" summary="mapa">
+      <option name="closed" value="true" />
+      <created>1731614986951</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731614986951</updated>
+    </task>
+    <task id="LOCAL-00012" summary="mapa">
+      <option name="closed" value="true" />
+      <created>1731622736664</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731622736664</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,6 +205,7 @@
     <MESSAGE value="inicial4" />
     <MESSAGE value="inicial5" />
     <MESSAGE value="jabhdad" />
-    <option name="LAST_COMMIT_MESSAGE" value="jabhdad" />
+    <MESSAGE value="mapa" />
+    <option name="LAST_COMMIT_MESSAGE" value="mapa" />
   </component>
 </project>
