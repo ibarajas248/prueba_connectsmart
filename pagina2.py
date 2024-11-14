@@ -14,7 +14,7 @@ def mostrar_estadisticas():
     json_url = "https://www.datos.gov.co/resource/c82u-588k.json"
 
     # Input para el número o identificador de búsqueda
-    search_number = st.text_input(" Ingrese el número de identificación que desea buscar:")
+    search_number = st.text_input(" Ingrese el número de identificación que desea buscar ejemplo- 830012616 :")
 
     # Función para buscar un registro específico en la API con un límite aumentado
     @st.cache_data
