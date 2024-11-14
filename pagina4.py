@@ -25,9 +25,9 @@ def mostrar_estadisticas():
 
     # Si se selecciona la búsqueda por código de categoría, muestra un ejemplo
     if opcion_busqueda == "codigo_principal_de_categoria":
-        st.text("Valor de ejemplo: V1.90141700")
+        st.text("Valor de ejemplo: V1.81101500")
     elif opcion_busqueda== "nit":
-        st.text("Valor de ejemplo: 800037979")
+        st.text("Valor de ejemplo: 830515117")
 
 
 
@@ -55,24 +55,37 @@ def mostrar_estadisticas():
                             else:
                                 df_ciudad = df
 
-                            df_grouped = df_ciudad.groupby(['nombre_del_proveedor', 'ciudad_proveedor']).size().reset_index(name='total_contratos')
+                            # Agrupación para obtener el top 10 de proveedores con más contratos
+                            df_grouped = df_ciudad.groupby(['nombre_del_proveedor', 'ciudad_proveedor',
+                                                            'nit_del_proveedor_adjudicado']).size().reset_index(
+                                name='total_contratos')
                             df_top_10 = df_grouped.sort_values(by='total_contratos', ascending=False).head(10)
 
-                            df_valor_adjudicado = df_ciudad.groupby('nombre_del_proveedor')['valor_total_adjudicacion'].sum().reset_index()
-                            df_valor_adjudicado = df_valor_adjudicado.sort_values(by='valor_total_adjudicacion', ascending=False).head(10)
+                            # Agrupación para obtener el top 10 de proveedores con el mayor valor de adjudicación
+                            df_valor_adjudicado = df_ciudad.groupby('nombre_del_proveedor')[
+                                'valor_total_adjudicacion'].sum().reset_index()
+                            df_valor_adjudicado = df_valor_adjudicado.sort_values(by='valor_total_adjudicacion',
+                                                                                  ascending=False).head(10)
 
-                            df_proveedores_ciudad = df_ciudad.groupby('ciudad_proveedor').size().reset_index(name='total_proveedores')
-                            df_proveedores_ciudad = df_proveedores_ciudad.sort_values(by='total_proveedores', ascending=False).head(10)
+                            # Agrupación para obtener las ciudades con más proveedores
+                            df_proveedores_ciudad = df_ciudad.groupby('ciudad_proveedor').size().reset_index(
+                                name='total_proveedores')
+                            df_proveedores_ciudad = df_proveedores_ciudad.sort_values(by='total_proveedores',
+                                                                                      ascending=False).head(10)
 
-                            # Mostrar las estadísticas
-                            st.write(f"Top 10 Proveedores en {ciudad_seleccionada if ciudad_seleccionada != 'Todas las Ciudades' else 'Todas las Ciudades'} con Más Contratos:")
+                            # Mostrar las estadísticas en Streamlit
+                            st.write(
+                                f"Top 10 Proveedores en {ciudad_seleccionada if ciudad_seleccionada != 'Todas' else 'Todas las Ciudades'} con Más Contratos:")
                             st.dataframe(df_top_10)
 
-                            st.write(f"Top 10 Proveedores en {ciudad_seleccionada if ciudad_seleccionada != 'Todas las Ciudades' else 'Todas las Ciudades'} con Mayor Valor de Adjudicación:")
+                            st.write(
+                                f"Top 10 Proveedores en {ciudad_seleccionada if ciudad_seleccionada != 'Todas' else 'Todas las Ciudades'} con Mayor Valor de Adjudicación:")
                             st.dataframe(df_valor_adjudicado)
 
-                            st.write(f"Top 10 Ciudades con Más Proveedores en {ciudad_seleccionada if ciudad_seleccionada != 'Todas las Ciudades' else 'Todas las Ciudades'}:")
+                            st.write(
+                                f"Top 10 Ciudades con Más Proveedores en {ciudad_seleccionada if ciudad_seleccionada != 'Todas' else 'Todas las Ciudades'}:")
                             st.dataframe(df_proveedores_ciudad)
+
                         else:
                             st.warning(f"No se encontraron registros para la ciudad {ciudad_seleccionada}.")
                     else:

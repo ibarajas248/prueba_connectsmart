@@ -4,6 +4,7 @@ import requests
 from geopy.geocoders import Nominatim
 from streamlit_folium import folium_static
 import folium
+from geopy.extra.rate_limiter import RateLimiter
 
 # Función para mostrar el buscador en la página
 def mostrar_estadisticas():
@@ -45,11 +46,18 @@ def mostrar_estadisticas():
     # Función para georreferenciar usando Dirección y Municipio
     def georreferenciar_direccion(direccion, municipio):
         geolocator = Nominatim(user_agent="your_app_name_or_domain")
+
+        # Usar RateLimiter para evitar problemas con las solicitudes frecuentes
+        geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
+
         try:
-            # Concatenar Dirección y Municipio para una mejor precisión
+            # Concatenar Dirección y Municipio para mayor precisión
             direccion_completa = f"{direccion}, {municipio}, Colombia"
-            location = geolocator.geocode(direccion_completa)
+            location = geocode(direccion_completa, exactly_one=True)
+
             if location:
+                # Opcional: imprimir información detallada para verificar precisión
+                print(location.raw)
                 return location.latitude, location.longitude
             else:
                 st.warning("No se pudo georreferenciar la dirección.")
