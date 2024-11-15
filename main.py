@@ -6,15 +6,19 @@ import estadosfinancieros
 import pagina4
 import pagina5  # Importar la nueva página para "Estados Financieros"
 import estados_financieros_nit  # Importar la página 'estados_financieros_nit'
+import emis_st  # Importar el archivo emis_st.py
+import analisis_webscrap  # Importar la nueva página para "Scraping Supersociedades"
 
 # Definir las páginas de navegación
 pages = {
     "API SECOP II": pagina1.mostrar_estadisticas,
     "RUES": pagina2.mostrar_estadisticas,
     "Buscar proveedor": pagina3.mostrar_estadisticas,
-    "SECOP II Busqueda inteligente": pagina4.mostrar_estadisticas,  # Corregido, no se debe ejecutar la función aquí
+    "SECOP II Busqueda inteligente": pagina4.mostrar_estadisticas,
     "Reportes Financieros": estadosfinancieros.mostrar_estadisticas,
-    "Estados Financieros NIT": estados_financieros_nit.mostrar_estadisticas  # Asegúrate de que la función mostrar_estadisticas existe en esta página
+    "Estados Financieros NIT": estados_financieros_nit.mostrar_estadisticas,
+    "Informes EMIS": emis_st.mostrar_estadisticas,
+    "Scraping Supersociedades": analisis_webscrap.mostrar_estadisticas  # Añadir la nueva página
 }
 
 # Inicializar `session_state` para el botón seleccionado
@@ -73,11 +77,14 @@ if st.sidebar.button("Buscar proveedor"):
     st.session_state.selected_page = "Buscar proveedor"
 if st.sidebar.button("SECOP II Busqueda inteligente"):
     st.session_state.selected_page = "SECOP II Busqueda inteligente"
-if st.sidebar.button("Reportes Financieros"):  # Botón para la página de Reportes Financieros
+if st.sidebar.button("Reportes Financieros"):
     st.session_state.selected_page = "Reportes Financieros"
-if st.sidebar.button("Estados Financieros NIT"):  # Botón para la página de Reportes Financieros
+if st.sidebar.button("Estados Financieros NIT"):
     st.session_state.selected_page = "Estados Financieros NIT"
-
+if st.sidebar.button("Informes EMIS"):
+    st.session_state.selected_page = "Informes EMIS"
+if st.sidebar.button("Scraping Supersociedades"):  # Botón para la nueva página de Scraping
+    st.session_state.selected_page = "Scraping Supersociedades"
 
 # Ejecutar la función asociada con la página seleccionada
 if st.session_state.selected_page in pages:

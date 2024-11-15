@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df33a56-2b6b-4443-885b-a171c61907c1" name="Changes" comment="mapa">
-      <change afterPath="$PROJECT_DIR$/data/emis_construccion.xlsx" afterDir="false" />
+    <list default="true" id="2df33a56-2b6b-4443-885b-a171c61907c1" name="Changes" comment="notebook">
+      <change afterPath="$PROJECT_DIR$/analisis_webscrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/SECOP II - Procesos de Contratación-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/scrappin.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/web_scrappin_supersociedades.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emis_st.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +50,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/David/PycharmProjects/hackatonb2b/data"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/David/PycharmProjects/hackatonb2b/data&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\David\PycharmProjects\hackatonb2b\data" />
       <recent name="C:\Users\David\PycharmProjects\hackatonb2b" />
       <recent name="C:\Users\David\PycharmProjects\hackatonb2b\.venv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\PycharmProjects\hackatonb2b\data" />
     </key>
   </component>
   <component name="RunManager">
@@ -195,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731622736664</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="notebook">
+      <option name="closed" value="true" />
+      <created>1731628286988</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731628286988</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,6 +222,7 @@
     <MESSAGE value="inicial5" />
     <MESSAGE value="jabhdad" />
     <MESSAGE value="mapa" />
-    <option name="LAST_COMMIT_MESSAGE" value="mapa" />
+    <MESSAGE value="notebook" />
+    <option name="LAST_COMMIT_MESSAGE" value="notebook" />
   </component>
 </project>
