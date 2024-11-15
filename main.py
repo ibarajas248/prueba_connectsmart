@@ -66,7 +66,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # Agregar la imagen al principio del menú de navegación (usando use_container_width)
-st.sidebar.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN7mkoICC3Mly_MKLzWuPQICcDx5kgeLeepw&s", use_container_width=True)
+st.sidebar.image("https://p4s.co/photo/mp-startup-logo-4232-1730860177624.jpg", use_container_width=True)
 
 # Menú de navegación con título en azul oscuro
 st.sidebar.markdown("<h2>Menú Principal</h2>", unsafe_allow_html=True)
