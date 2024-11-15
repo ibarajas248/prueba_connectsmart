@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df33a56-2b6b-4443-885b-a171c61907c1" name="Changes" comment="notebook">
-      <change afterPath="$PROJECT_DIR$/analisis_webscrap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/SECOP II - Procesos de Contratación-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scrappin.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/web_scrappin_supersociedades.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emis_st.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="2df33a56-2b6b-4443-885b-a171c61907c1" name="Changes" comment="hackaton ok">
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731628286988</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="hackaton ok">
+      <option name="closed" value="true" />
+      <created>1731695482107</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731695482107</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,6 +225,7 @@
     <MESSAGE value="jabhdad" />
     <MESSAGE value="mapa" />
     <MESSAGE value="notebook" />
-    <option name="LAST_COMMIT_MESSAGE" value="notebook" />
+    <MESSAGE value="hackaton ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="hackaton ok" />
   </component>
 </project>
