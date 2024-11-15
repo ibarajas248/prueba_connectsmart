@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df33a56-2b6b-4443-885b-a171c61907c1" name="Changes" comment="hackaton ok">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="2df33a56-2b6b-4443-885b-a171c61907c1" name="Changes" comment="hackaton ok1">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731695482107</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="hackaton ok1">
+      <option name="closed" value="true" />
+      <created>1731695664225</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731695664225</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,6 +234,7 @@
     <MESSAGE value="mapa" />
     <MESSAGE value="notebook" />
     <MESSAGE value="hackaton ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="hackaton ok" />
+    <MESSAGE value="hackaton ok1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hackaton ok1" />
   </component>
 </project>
